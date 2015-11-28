@@ -17,8 +17,8 @@ session_start();
 <meta name="distribution" content="global" />
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta http-equiv="Content-Language" content="en-us" />
-<meta name="description" content="UMBC Advising" />
-<meta name="keywords" content="UMBC, Advising" />
+<meta name="description" content="The White Oak Tavern, Mug Club" />
+<meta name="keywords" content="The White Oak Tavern, Mug Club" />
 <!-- ============================================================== -->
 
     <!-- Latest compiled and minified CSS -->
@@ -54,7 +54,7 @@ session_start();
 			$sqlMugNum = "SELECT * FROM `mugclub`WHERE UPPER(`fname`) LIKE LOWER('%$memberFname%')";
 			$sendMugNum = $COMMON->executeQuery($sqlMugNum,$_SERVER["SCRIPT_NAME"]);
 
-			echo("Possible mug club members are: <br>");
+			echo("Possible Mug Club members are: <br>");
 			while($possibleMembers = mysql_fetch_row($sendMugNum)){
 				echo("<h3>$possibleMembers[1] $possibleMembers[2] : $possibleMembers[0]</h3><br>");
 			}
@@ -65,7 +65,7 @@ session_start();
 			$sqlMugNum = "SELECT * FROM `mugclub`WHERE UPPER(`lname`) LIKE LOWER('%$memberLname%')";
 			$sendMugNum = $COMMON->executeQuery($sqlMugNum,$_SERVER["SCRIPT_NAME"]);
 			
-			echo("Possible mug club members are: <br>");
+			echo("Possible Mug Club members are: <br>");
 			while($possibleMembers = mysql_fetch_row($sendMugNum)){
 				echo("<h3>$possibleMembers[1] $possibleMembers[2] : $possibleMembers[0]</h3><br>");
 			}
@@ -86,7 +86,7 @@ session_start();
 			//$numEntries = $fetchMugCount[0];
 			//var_dump($fetchMugCount);
 			//if($numEntries > 1){
-				echo("Possible mug club members are: <br>");
+				echo("Possible Mug Club members are: <br>");
 				while($possibleMembers = mysql_fetch_row($sendMugNum)){
 					echo("<h3>$possibleMembers[1] $possibleMembers[2] : $possibleMembers[0]</h3><br>");
 				}

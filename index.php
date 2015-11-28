@@ -17,8 +17,8 @@ session_start();
 <meta name="distribution" content="global" />
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <meta http-equiv="Content-Language" content="en-us" />
-<meta name="description" content="UMBC Advising" />
-<meta name="keywords" content="UMBC, Advising" />
+<meta name="description" content="The White Oak Tavern, Mug Club" />
+<meta name="keywords" content="The White Oak Tavern, Mug Club" />
 <!-- ============================================================== -->
 
     <!-- Latest compiled and minified CSS -->
