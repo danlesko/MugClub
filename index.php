@@ -44,12 +44,12 @@ session_start();
       <div class="middleContainer">
 
       <form class="form-signin" action = "mugClubHome.php" method ="post">
-        <h2 class="form-signin-heading">Search For Member</h2>
+        <h3 class="form-signin-heading">Search For Member</h3>
         <label for="inputFname" class="sr-only">First Name</label>
         <input type="text" name = "memberFname" class="form-control" placeholder="First Name"  autofocus>
         <label for="inputLname"  class="sr-only">Last Name</label>
         <input type="text" name = "memberLname" class="form-control" placeholder="Last Name"  autofocus>
-        <button class="btn btn-lg btn-primary btn-block" type="submit" >Search</button>
+        <button class="btn btn-lg btn-success btn-block" type="submit" >Search</button>
       </form>
     </div>
     </div> <!-- /container -->
