@@ -113,7 +113,7 @@ session_start();
      <?php
      	$memberLname = ($_POST['memberLname']);
      	if (strtolower($memberLname) == 'lesko'){
-     		echo ("<br><br><p>I used to know a guy named Dan Lesko. He was the shit!<br></p>");
+     		echo ("<br><br><p>I used to know a guy named Dan Lesko. He was the bomb!!<br></p>");
      	}
 
      ?>
